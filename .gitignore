@@ -67,5 +67,5 @@ google-calendar/.env
 tmp/
 
 **/google-calendar/*
-.langgraph_api/*
+**/.langgraph_api/*
 

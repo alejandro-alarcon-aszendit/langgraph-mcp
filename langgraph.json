@@ -1,0 +1,13 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+      "base_agent": "src/base/agent.py:math_graph_module",
+      "calendar_agent": "src/calendar/agent.py:calendar_graph_module",
+      "tool_node_agent": "src/tool_node/agent.py:amain",
+      "simplified_tool_agent": "src/simplified_tool_agent/agent.py:amain"
+    },
+    "python_version": "3.11",
+    "dependencies": [
+      "."
+    ]
+  }
