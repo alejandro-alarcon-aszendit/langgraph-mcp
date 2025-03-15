@@ -8,6 +8,63 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
 **/.env
+.env
+.env.*
+*.env
+src/langgraph_assistant/.env
+
+# Logs and cache
+*.log
+.cache/
+.pytest_cache/
+logs/
+*.swp
+.coverage
+htmlcov/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-*
+.ipynb_checkpoints/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build directories
+build/
+dist/
+*.egg-info/
+google-calendar/build/
+
+# Token files that may contain sensitive information
+google-calendar/getToken.cjs
+google-calendar/.env
+**/token.json
+**/credentials.json
+
+# LangSmith tracing data
+.langchain/
+.langchain.db
+
+# Misc
+.history/
+.temp/
+tmp/
+
 **/google-calendar/*
 
